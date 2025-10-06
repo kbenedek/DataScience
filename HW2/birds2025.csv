@@ -1,0 +1,51 @@
+species;group;length;wspan;weight;AR;wload;back;belly;ftype
+naurulokki;laridae;34-38;86-99;200-350;8.13;0.31;light grey;white;B
+harmaalokki;laridae;55-65;123-148;800-1300;8.24;0.64;bluish grey;white;B
+isolokki;laridae;63-68;138-158;1000-1800;8.24;0.66;bluish grey;white;B
+kalatiira;sternidae;36-42;70-80;100-145;9.14;0.24;grey;white;B
+lapintiira;sternidae;33-37;66-77;90-130;8.97;0.2;grey;white;B
+suokukko;scolopacidae;25-26;46-49;90-130;6.73;0.36;dappled brown;white;C
+taivaanvuohi;scolopacidae;25-27;39-45;90-110;5.91;0.4;dappled brown;white;C
+lehtokurppa;scolopacidae;34-36;55-65;280-330;5.68;0.54;dappled brown;dappled beige;C
+karikukko;scolopacidae;21-24;43-49;90-130;7.21;0.45;black-brown;white;C
+metsäviklo;scolopacidae;21-24;39-44;75-85;7.2;0.29;brown;white;C
+liro;scolopacidae;21-23;35-39;50-70;7.53;0.23;dappled brown;white;C
+suosirri;scolopacidae;17-21;32-36;35-62;6.95;0.31;dappled brown;black-white;C
+pikkusirri;scolopacidae;14-16;27-30;20-30;6.63;0.18;dappled brown;white;C
+pikkutylli;charadriidae;15-16;32-35;35-45;6.93;0.24;greyish brown;white;C
+tylli;charadriidae;18-19;35-41;50-65;7.43;0.32;greyish brown;white;C
+keräkurmitsa;charadriidae;20-24;57-64;85-140;7.43;0.45;dappled brown;black;C
+töyhtöhyyppä;charadriidae;30-34;67-72;170-230;5.45;0.34;black;white;C
+haapana;dabbling ducks;41-51;71-80;600-800;7.7;1.09;dappled brown;white;C
+tavi;dabbling ducks;34-38;53-59;250-450;6.51;0.75;dappled brown;beige;C
+sinisorsa;dabbling ducks;50-60;79-87;900-1300;6.19;1.05;dappled brown;beige;C
+heinätavi;dabbling ducks;37-41;59-67;300-550;5.8;0.76;dappled brown;beige;C
+lapasorsa;dabbling ducks;44-52;73-82;500-700;7.47;1.06;dappled brown;dark brown;C
+tukkasotka;diving ducks;41-46;65-72;600-800;7.12;1.52;dark brown;dark brown;C
+punasotka;diving ducks;42-49;67-75;770-970;7.27;1.46;beige;beige;C
+merihanhi;anserinae;75-90;149-168;2500-3500;6.57;1.09;dappled brown;light grey;C
+kyhmyjoutsen;anserinae;145-160;200-240;9000-13000;7.69;2.15;white;white;C
+kurki;gruifores;110-120;185-220;4000-6000;6.3;1;grey;grey;C
+luhtakana;rallidae;23-29;38-45;75-190;4.5;0.45;dappled brown;grey;C
+ruisrääkkä;rallidae;27-30;42-53;140-200;5.18;0.48;dappled brown;beige;C
+liejukana;rallidae;28-40;50-55;170-490;5.33;0.74;brownish black;dark grey;C
+nokikana;rallidae;36-38;70-80;600-900;5.71;1.16;greyish black;greyish black;C
+luhtahuitti;rallidae;19-23;37-42;55-145;5.44;0.38;dappled brown;dappled brown;C
+merimetso;phalacrocoracidae;90-100;121-149;2300-3500;6.54;1.02;black;black;C
+silkkiuikku;podicipedidae;50-55;59-73;800-1200;7.87;1.34;blackish grey;white;C
+härkälintu;podicipedidae;40-50;77-85;700-900;6.48;1.81;blackish grey;reddish brown;C
+mustakurkku-uikku;podicipedidae;31-38;46-55;400-720;7.6;1.56;black;reddish brown;C
+pikku-uikku;podicipedidae;23-29;40-45;150-200;6.37;0.92;black;beige;C
+kaakkuri;gaviidae;53-69;91-110;1300-2000;9.26;1.64;greyish brown;white;C
+kuikka;gaviidae;58-73;100-122;2000-3000;8.94;2.34;black-white;white;C
+kaulushaikara;ardeidae;70-80;100-130;800-1900;5.58;0.6;dappled brown;dappled brown;B
+harmaahaikara;ardeidae;90-100;155-175;930-1150;5.88;0.4;light grey;greyish white;B
+kattohaikara;ardeidae;100-115;180-215;2500-4000;6.41;0.86;black-white;white;A
+kanahaukka;accipitridae;49-64;93-127;750-1700;5.38;0.66;grey;black-white;A
+varpushaukka;accipitridae;29-41;58-80;130-345;5.35;0.24;greyish brown;black-white;A
+hiirihaukka;accipitridae;46-58;110-132;550-1000;5.58;0.4;dark brown;brown-white;A
+mehiläishaukka;accipitridae;52-59;110-132;510-1160;5.48;0.38;greyish brown;brown-white;A
+ruskosuohaukka;accipitridae;43-55;115-140;480-750;6.37;0.34;dark brown;brown;A
+sinisuohaukka;accipitridae;42-55;97-118;285-630;5.81;0.21;brown;brown-white;A
+haarahaukka;accipitridae;48-58;130-155;560-940;7.14;0.33;dark brown;dark brown;A
+merikotka;accipitridae;78-100;190-240;4000-7000;5.18;0.68;brown;brown;A

@@ -1,0 +1,85 @@
+birds2025.csv
+
+This data describes some bird species that occur in Finland. The data
+has been gathered from various sources (ornithology books, NatureGate
+https://luontoportti.com/en, wikipedia, and other articles) and
+translated and postprocessed by Wilhelmiina Hämäläinen 2023-24,
+including some external consultation. The intention is to extend the
+data later to be used for other purposes. The current version can be
+used in the Methods of Data Mining (Aalto University) 2024 exercise
+tasks, but you are not allowed to publish or deliver the data. Note
+that the data may contain errors or inaccuracies in biological facts
+and is not meant as an ornithological guide.
+
+Features
+---------
+
+The fields are the following:
+
+species - Finnish name, works as a row identifier (not needed in the analysis)
+group - biological group, see the taxonomy below
+length - body length (cm)
+wspan - wing span (cm)
+weight - weight (g)
+AR - wing aspect ratio is the ratio of wing length and wing width (*)
+wload - wing loading is the ratio of body mass and wing area (*)
+back - main colour of the back
+belly - main colour of the belly
+ftype - flying type (category A, B, C)
+
+Notes: The colours refer to the female bird. The AR and wload measures
+and flying types are based on Vincze et al. (2019).
+
+Hint: When using numerical values, you can decide
+wheather to use the minimum or maximum value of the range or some mid
+value. Instead of absolute values, it may be more informative to
+calculate body weight index, BMI=weight/length^2, and wing span index,
+WSI=wspan/length (to describe how slim or long-winged the bird is).
+
+When using colour variables, you can use the simple overlap similarity
+(or corresponding distance), but it will punish for any difference in
+the shades.  You will probably get better results, if you design your
+own distance function that assigns smaller distance for similar
+colours mentioning the same main colour (e.g., "light grey" and
+"bluish grey" or "dark brown" and "brown").
+
+
+Taxonomy
+--------
+
+Here is taxonomy that describes the biological groupings of the listed
+species. There are birds from 8 orders that are divided to families
+and possibly subfamilies.  The data gives the most specific grouping
+(family or subfamily), from which you can derive a more general group.
+
+1. Charadriiformes (shorebirds)
+1.1 Lari (gulls and terns)
+1.1.1 Laridae (lokit, gulls)
+1.1.2 Sternidae (tiirat, terns)
+1.2 Charadrii (kahlaajat, waders)
+1.2.1 Scolopacidae (kurpat, sandpipers etc)
+1.2.2 Charadriidae (kurmitsat, plovers etc)
+1.2.3 Haematopodidae (meriharakat, oystercatchers)
+2. Anatidae (ducks, geese, swans)
+2.1 Anatinae (varsinaiset sorsat, ducks)
+2.1.1 dabbling ducks
+2.1.2 diving ducks
+2.2 Anserinae (hanhet ja joutsenet, geese and swans)
+3. Gruiformes
+3.1 Gruidae (kurjet, cranes)
+3.2 Rallidae (rantakanat, rails)
+4. Phalacrocoracidae (merimetsot, cormorants)
+5. Podicipedidae (uikut, grebes)
+6. Gaviidae (kuikat, loons)
+7. Ardeidae (haikarat, herons)
+8. Accipitriformes (päiväpetolinnut, diurnal birds of prey) 
+8.1 Accipitridae (hawks, eagles, kites, harriers)
+
+
+
+References
+-----------
+
+Vincze et al. (2019): Wing morphology, flight type and migration
+distance predict accumulated fuel load in birds. Experimental Biology
+222, https://doi.org/10.1242/jeb.183517
