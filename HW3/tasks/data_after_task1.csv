@@ -1,0 +1,8 @@
+"";rule;prediction;confidence;leverage;lift;n_mi
+9;smoking,higheducation;AD;0.400000;0.0080;1.333333;2.846664
+6;female,stress;AD;0.384615;0.0220;1.282051;8.398762
+8;smoking,tea;AD;0.416667;0.0280;1.388889;14.201863
+11;female,higheducation;~AD;0.808765;0.0273;1.155378;14.461504
+0;smoking;AD;0.416667;0.0350;1.388889;19.435585
+10;stress,smoking;AD;0.500000;0.0400;1.666667;32.268400
+2;higheducation;~AD;0.800000;0.0500;1.142857;34.851555

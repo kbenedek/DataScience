@@ -1,0 +1,14 @@
+num;rule;prediction;fr_X;fr_XC;generated
+1;smoking;AD;300;125;false
+2;stress;AD;500;150;false
+3;higheducation;~AD;500;400;false
+4;tea;~AD;342;240;false
+5;turmeric;~AD;2;2;false
+6;female;~AD;500;352;false
+7;female,stress;AD;260;100;false
+8;berries,apples;AD;120;32;false
+9;smoking,tea;AD;240;100;false
+10;smoking,higheducation;AD;80;32;false
+11;stress,smoking;AD;200;100;false
+12;female,higheducation;~AD;251;203;false
+13;female;AD;500;148;true
