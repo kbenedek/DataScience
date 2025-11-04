@@ -8,11 +8,14 @@ python3 featex.py
 ./namescodes/namescodes -n birdstrans.txt -tbirdtable.txt -L
 
 # 3. Convert constraint labels to numerical codes: Use the same translation table.
+# TODO: Define bconstr.txt with appropriate constraints and then uncomment.
 # ./namescodes/namescodes -n bconstr.txt -tbirdtable.txt
 
 # 4. Search association rules with Kingfisher: Use the coded input data and coded constraints.
 # Parameters used here are illustrative examples: -k170 (upper bound for item number), -M-5 (initial threshold), -q300 (top 300 rules).
-./kingfisher/kingfisher -i birdstrans.txt.codes -k300 -M-5 -q300 -o birdrules.txt # -b bconstr.txt.codes
+# TODO: Adjust parameters as needed for analysis.
+# TODO: Uncomment the -b option when constraints are ready.
+./kingfisher/kingfisher -i birdstrans.txt.codes -k170 -M-5 -q300 -o birdrules.txt # -b bconstr.txt.codes
 
 # 5. Convert numerical codes back to label names: Transform the rule results using the table.
 ./namescodes/namescodes -c birdrules.txt -tbirdtable.txt
