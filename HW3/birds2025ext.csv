@@ -1,0 +1,51 @@
+species;group;length;wspan;weight;AR;wload;back;belly;ftype;sim;billcol;legcol;arrives;leaves;eggs;incub;ccare;biotope;diet;diver;long-billed;webbed-feet;long-legs;wading-bird;plunge-dives
+naurulokki;laridae;34-38;86-99;200-350;8.13;0.31;light grey;white;B;Yes;red;red;March-April;July;1-3;both;both;lakes,sea-bays;fish,invertebrates,garbage;No;No;Yes;No;No;Yes
+harmaalokki;laridae;55-65;123-148;800-1300;8.24;0.64;bluish grey;white;B;Yes;yellow;reddish;March-April;August-December;1-3;both;both;lakes,sea-coast,marshland;fish,garbage,chicks,grain;No;No;Yes;No;No;Yes
+isolokki;laridae;63-68;138-158;1000-1800;8.24;0.66;bluish grey;white;B;Yes;yellow;reddish;December;March;3;both;both;sea-coast, harbours;fish,eggs,chicks,garbage,carrion;No;No;Yes;No;No;Yes
+kalatiira;sternidae;36-42;70-80;100-145;9.14;0.24;grey;white;B;Yes;red;red;May;August-September;1-3;both;both;lakes,archipelago;fish;No;No;Yes;No;No;Yes
+lapintiira;sternidae;33-37;66-77;90-130;8.97;0.2;grey;white;B;Yes;red;red;May;July-August;1-3;both;both;archipelago,lakes,marshland;fish;No;No;Yes;No;No;Yes
+suokukko;scolopacidae;25-26;46-49;90-130;6.73;0.36;dappled brown;white;C;No;dark-brown;orange;April-May;June-July;4;F;F;marshland,wetlands;invertebrates,seeds;No;No;No;Yes;Yes;No
+taivaanvuohi;scolopacidae;25-27;39-45;90-110;5.91;0.4;dappled brown;white;C;Yes;reddish-brown;greenish-grey;April-May;August-October;4;F;F;marshland,coastal-meadows;invertebrates;No;Yes;No;No;Yes;No
+lehtokurppa;scolopacidae;34-36;55-65;280-330;5.68;0.54;dappled brown;dappled beige;C;Yes;brown;yellowish-grey;March-April;September-October;4;F;F;forests;invertebrates,worms,larvae,snails;No;Yes;No;No;Yes;No
+metsäviklo;scolopacidae;21-24;39-44;75-85;7.2;0.29;brown;white;C;Yes;black;greenish-grey;March-April;June-July;4;both;M;forests,ponds;invertebrates,plants;No;Yes;No;Yes;Yes;No
+liro;scolopacidae;21-23;35-39;50-70;7.53;0.23;dappled brown;white;C;Yes;black;greenish-yellow;May;June-September;4;both;M;marshland,wetlands;invertebrates;No;Yes;No;Yes;Yes;No
+karikukko;scolopacidae;21-24;43-49;90-130;7.21;0.45;black-brown;white;C;Yes;black;orange;April-May;July-August;4;both;M;archipelago,islets;invertebrates,eggs;No;No;No;No;Yes;No
+suosirri;scolopacidae;17-21;32-36;35-62;6.95;0.31;dappled brown;black-white;C;Yes;black;black;March-June;July-October;4;both;both;coastal-meadows,wetlands;invertebrates;No;Yes;No;No;Yes;No
+pikkusirri;scolopacidae;14-16;27-30;20-30;6.63;0.18;dappled brown;white;C;Yes;black;black;May-June;July-September;4;both;both;shores,wetlands,shrub-tundra;invertebrates;No;No;No;No;Yes;No
+pikkutylli;charadriidae;15-16;32-35;35-45;6.93;0.24;greyish brown;white;C;Yes;black;brownish;April-May;July-August;4;both;both;shores;insects,snails;No;No;No;No;Yes;No
+tylli;charadriidae;18-19;35-41;50-65;7.43;0.32;greyish brown;white;C;Yes;orange;orange;March-April;July-October;4;both;both;shores;invertebrates,snails;No;No;No;No;Yes;No
+keräkurmitsa;charadriidae;20-24;57-64;85-140;7.43;0.45;dappled brown;black;C;Yes;black;yellow;May-June;August-September;3;M;M;fells;insects,worms,berries;No;No;No;No;Yes;No
+töyhtöhyyppä;charadriidae;30-34;67-72;170-230;5.45;0.34;black;white;C;Yes;black;brownish-red;March-April;June-November;4;both;both;fields;worms,insects;No;No;No;No;Yes;No
+haapana;dabbling ducks;41-51;71-80;600-800;7.7;1.09;dappled brown;white;C;No;grey;grey;March-May;August-October;7-9;F;F;lakes,marshland,shores;plants;No;No;Yes;No;No;No
+tavi;dabbling ducks;34-38;53-59;250-450;6.51;0.75;dappled brown;beige;C;No;grey;greenish-grey;April-May;August-September;7-11;F;F;lakes,ponds,streams;plants,invertebrates;No;No;Yes;No;No;No
+sinisorsa;dabbling ducks;50-60;79-87;900-1300;6.19;1.05;dappled brown;beige;C;No;orange;orange;March-April;October-November;5-12;F;F;lakes,shores;plants,invertebrates;No;No;Yes;No;No;No
+heinätavi;dabbling ducks;37-41;59-67;300-550;5.8;0.76;dappled brown;beige;C;No;grey;grey;April-May;August-September;8-10;F;F;lakes,shores;plants,invertebrates;No;No;Yes;No;No;No
+lapasorsa;dabbling ducks;44-52;73-82;500-700;7.47;1.06;dappled brown;dark brown;C;No;greenish-brown;orange-red;April-May;August-October;9-11;F;F;shores;plants,invertebrates;No;No;Yes;No;No;No
+tukkasotka;diving ducks;41-46;65-72;600-800;7.12;1.52;dark brown;dark brown;C;No;light-grey;bluish-grey;March-April;September-December;6-12;F;F;lakes,archipelago;molluscs,insects,plants;Yes;No;Yes;No;No;No
+punasotka;diving ducks;42-49;67-75;770-970;7.27;1.46;beige;beige;C;No;dark-grey;bluish-grey;April-May;September;7-12;F;F;nutrient-rich-lakes,sea-bays;plants,molluscs,insects,fish;Yes;No;Yes;No;No;No
+merihanhi;anserinae;75-90;149-168;2500-3500;6.57;1.09;dappled brown;light grey;C;Yes;orange;pink;April;August-September;3-9;F;both;archipelago;grass,algae,grain;No;No;Yes;No;No;No
+kyhmyjoutsen;anserinae;145-160;200-240;9000-13000;7.69;2.15;white;white;C;Yes;red;dark-grey;March-April;November;3-10;F;both;archipelago;plants,invertebrates;No;No;Yes;No;No;No
+kurki;gruifores;110-120;185-220;4000-6000;6.3;1;grey;grey;C;Yes;reddish;black;March-May;August-October;1-3;both;both;marshland;plants,grain,frogs,insects,small-rodents;No;Yes;No;Yes;Yes;No
+luhtakana;rallidae;23-29;38-45;75-190;4.5;0.45;dappled brown;grey;C;Yes;red;reddish-brown;March-April;September;6-11;both;both;nutrient-rich-lakes,sea-bays,reedbeds;plants,vertebrae;No;Yes;No;Yes;Yes;No
+ruisrääkkä;rallidae;27-30;42-53;140-200;5.18;0.48;dappled brown;beige;C;Yes;beige;reddish-brown;June;August-September;6-14;F;F;fields,meadows;invertebrates,plants,seeds;No;No;No;Yes;Yes;No
+liejukana;rallidae;28-40;50-55;170-490;5.33;0.74;brownish black;dark grey;C;Yes;red;greenish;April;September-November;3-11;both;both;lakes,sea-bays,reedbeds;plants,invertebrates;No;No;No;Yes;Yes;No
+nokikana;rallidae;36-38;70-80;600-900;5.71;1.16;greyish black;greyish black;C;Yes;white;greenish;March-April;August-October;4-12;both;both;nutrient-rich-lakes,sea-bays,reedbeds;insects;No;No;Yes;No;Yes;No
+luhtahuitti;rallidae;19-23;37-42;55-145;5.44;0.38;dappled brown;dappled brown;C;Yes;yellow;greenish;May;August-September;8-12;both;both;meadows,reedbeds,nutrient-rich-lakes;invertebrates,algae,seeds;No;No;No;No;Yes;No
+merimetso;phalacrocoracidae;90-100;121-149;2300-3500;6.54;1.02;black;black;C;Yes;grey;black;April-May;August-October;3-4;both;both;islets;fish,shellfish;Yes;Yes;Yes;No;No;No
+silkkiuikku;podicipedidae;50-55;59-73;800-1200;7.87;1.34;blackish grey;white;C;Yes;reddish;yellowish-grey;May;August-October;3-6;both;both;lakes,sea-bays;fish;Yes;Yes;Yes;No;No;No
+härkälintu;podicipedidae;40-50;77-85;700-900;6.48;1.81;blackish grey;reddish brown;C;Yes;dark;black;April-May;August-November;3-6;both;both;lakes;fish,shellfish,clams;Yes;Yes;Yes;No;No;No
+mustakurkku-uikku;podicipedidae;31-38;46-55;400-720;7.6;1.56;black;reddish brown;C;Yes;black;greenish-black;April-May;July-August;4-6;both;both;lakes,ponds;insects,shellfish;Yes;No;Yes;No;No;No
+pikku-uikku;podicipedidae;23-29;40-45;150-200;6.37;0.92;black;beige;C;Yes;black;greenish;April;October;4-6;both;both;lakes,ponds;fish,insects,shellfish,clams;Yes;No;Yes;No;No;No
+kaakkuri;gaviidae;53-69;91-110;1300-2000;9.26;1.64;greyish brown;white;C;Yes;black;black;April-May;September-November;2;both;both;ponds,lakes;fish;Yes;No;Yes;No;No;No
+kuikka;gaviidae;58-73;100-122;2000-3000;8.94;2.34;black-white;white;C;Yes;black;black;April-May;August-October;2;both;both;lakes,sea-bays;fish;Yes;No;Yes;No;No;No
+kaulushaikara;ardeidae;70-80;100-130;800-1900;5.58;0.6;dappled brown;dappled brown;B;Yes;greenish-yellow;greenish-yellow;April-May;August-October;5-7;F;F;reedbeds,nutrient-rich-lakes,sea-bays;fish,frogs,chicks,small-rodents;No;Yes;No;No;Yes;No
+harmaahaikara;ardeidae;90-100;155-175;930-1150;5.88;0.4;light grey;greyish white;B;Yes;yellow;brown;March-May;August-November;4-6;both;both;nutrient-rich-lakes,sea-bays,islets;fish,frogs,snakes,small-rodents,chicks;No;Yes;No;Yes;Yes;No
+kattohaikara;ardeidae;100-115;180-215;2500-4000;6.41;0.86;black-white;white;A;Yes;red;red;April-May;August-September;3-5;both;both;meadows,pastures,wetlands;frogs,worms,small-rodents,insects,snakes;No;Yes;No;Yes;Yes;No
+kanahaukka;accipitridae;49-64;93-127;750-1700;5.38;0.66;grey;black-white;A;Yes;black;yellow;March-April;September-November;2-5;F;both;forests;birds,small-rodents,hares,squirrels;No;No;No;No;No;No
+varpushaukka;accipitridae;29-41;58-80;130-345;5.35;0.24;greyish brown;black-white;A;Yes;bluish-grey;greenish-yellow;March-May;August;3-7;F;both;forests;birds,small-rodents;No;No;No;No;No;No
+hiirihaukka;accipitridae;46-58;110-132;550-1000;5.58;0.4;dark brown;brown-white;A;Yes;yellow-black;yellow;March-April;August-October;2-3;both;both;forest-edges;rodents,chicks,frogs,snakes;No;No;No;No;No;No
+mehiläishaukka;accipitridae;52-59;110-132;510-1160;5.48;0.38;greyish brown;brown-white;A;Yes;black;yellow;May;August;1-2;both;both;forests, forest-edges;insects,eggs,chicks,frogs,small-rodents;No;No;No;No;No;No
+ruskosuohaukka;accipitridae;43-55;115-140;480-750;6.37;0.34;dark brown;brown;A;No;black;yellow;April;August-September;4-5;F;both;reedbeds;small-rodents,chicks,frogs,insects;No;No;No;No;No;No
+sinisuohaukka;accipitridae;42-55;97-118;285-630;5.81;0.21;brown;brown-white;A;No;yellow-black;yellow;April;August-October;4-6;F;both;marshland,wetlands,shores;small-rodents,birds,frogs,insects;No;No;No;No;No;No
+haarahaukka;accipitridae;48-58;130-155;560-940;7.14;0.33;dark brown;dark brown;A;Yes;black;reddish-yellow;April-May;August-October;2-3;both;both;shores,meadows,forest-edges;fish,frogs,small-rodents,lizards,carrion;No;No;No;No;No;No
+merikotka;accipitridae;78-100;190-240;4000-7000;5.18;0.68;brown;brown;A;Yes;yellow;yellow;March-April;October-November;1-3;both;both;sea-coast,lakes;birds,fish,carrion;No;No;No;No;No;Yes
