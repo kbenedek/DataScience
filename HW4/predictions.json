@@ -1,0 +1,37 @@
+{
+  "0": {
+    "1": {
+      "predicted_active": 1,
+      "num_applicable_rules": 49,
+      "avg_confidence": 0.6365460026308576,
+      "avg_MI": 0.08569288275504315,
+      "avg_lift": 1.9520744080679633,
+      "avg_leverage": 0.10378650515026426,
+      "max_confidence": 0.7692307692307693,
+      "max_lift": 2.358974358974359,
+      "total_MI": 4.198951254997114
+    },
+    "2": {
+      "predicted_active": 1,
+      "num_applicable_rules": 20,
+      "avg_confidence": 0.2085896701337878,
+      "avg_MI": 0.22200678492265985,
+      "avg_lift": 0.5330624903419021,
+      "avg_leverage": -0.04966918714555766,
+      "max_confidence": 0.375,
+      "max_lift": 0.9583333333333334,
+      "total_MI": 4.440135698453197
+    },
+    "3": {
+      "predicted_active": 0,
+      "num_applicable_rules": 6,
+      "avg_confidence": 0.1414141414141414,
+      "avg_MI": 0.11557340086531227,
+      "avg_lift": 0.20984033887259693,
+      "avg_leverage": -0.13468809073724006,
+      "max_confidence": 0.16666666666666666,
+      "max_lift": 0.24731182795698925,
+      "total_MI": 0.6934404051918737
+    }
+  }
+}

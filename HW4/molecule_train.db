@@ -1,3 +1,4 @@
+0,0,C#Cc1cc(-c2nc3ccccc3s2)ccc1N
 1,0,C[Si](C)(C)C#Cc1cc(-c2nc3ccccc3s2)ccc1N
 2,0,Nc1ccc(-c2nc3cc(F)ccc3s2)cc1
 3,0,Cc1cc(-c2nc3cc(F)ccc3s2)ccc1N
@@ -38,7 +39,6 @@
 38,0,COc1cc2c(c(OC)c1OC)-c1ccc(SC)c(=O)cc1C(NC(=O)c1ccc(F)cc1)CC2
 39,0,COc1cc2c(c(OC)c1OC)-c1ccc(SC)c(=O)cc1C(NCc1cccc([N+](=O)[O-])c1)CC2
 40,0,COc1cc2c(c(OC)c1OC)-c1ccc(SC)c(=O)cc1C(NC(=O)c1cccc([N+](=O)[O-])c1)CC2
-41,0,CCCCCC(=O)NC1CCc2cc(OC)c(OC)c(OC)c2-c2ccc(SC)c(=O)cc21
 42,0,CCCCCCCCCC(=O)NC1CCc2cc(OC)c(OC)c(OC)c2-c2ccc(SC)c(=O)cc21
 43,0,CCOc1ccc(C=Cc2cc(OC)c(OC)c(OC)c2)cc1
 44,0,CCCOc1ccc(C=Cc2cc(OC)c(OC)c(OC)c2)cc1
