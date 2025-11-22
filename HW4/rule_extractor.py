@@ -134,9 +134,6 @@ def extract_significant_rules(
     return rules
 
 
-"""MI_C = \log \frac{P(\mathbf{X})^{P(\mathbf{X})} P(\mathbf{X}\mathbf{Q}C)^{P(\mathbf{X}\mathbf{Q}C)} P(\mathbf{X}\mathbf{Q}\neg C)^{P(\mathbf{X}\mathbf{Q}\neg C)} P(\mathbf{X}\neg \mathbf{Q}C)^{P(\mathbf{X}\neg \mathbf{Q}C)} P(\mathbf{X}\neg \mathbf{Q}\neg C)^{P(\mathbf{X}\neg \mathbf{Q}\neg C)}}{P(\mathbf{X}\mathbf{Q})^{P(\mathbf{X}\mathbf{Q})} P(\mathbf{X}\neg \mathbf{Q})^{P(\mathbf{X}\neg \mathbf{Q})} P(\mathbf{X}C)^{P(\mathbf{X}C)} P(\mathbf{X}\neg C)^{P(\mathbf{X}\neg C)}}"""
-
-
 def conditional_mutual_information(
     frequencies: dict,
     X: tuple,

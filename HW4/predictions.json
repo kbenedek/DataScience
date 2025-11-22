@@ -12,7 +12,7 @@
       "total_MI": 4.198951254997114
     },
     "2": {
-      "predicted_active": 1,
+      "predicted_active": 0,
       "num_applicable_rules": 20,
       "avg_confidence": 0.2085896701337878,
       "avg_MI": 0.22200678492265985,

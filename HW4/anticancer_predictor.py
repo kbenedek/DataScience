@@ -332,8 +332,8 @@ def predict_batch(
     test_molecules_file: str,
     rules_file: str,
     output_file: str,
-    threshold_confidence: float = 0.15,
-    threshold_lift: float = 0.9,
+    threshold_confidence: float = 0.3,
+    threshold_lift: float = 1.0,
 ) -> None:
     """Predict anticancer activities for test molecules."""
     print("Loading training data and rules...")
@@ -418,10 +418,10 @@ if __name__ == "__main__":
         help="Path to output JSON file",
     )
     parser.add_argument(
-        "--threshold_confidence", type=float, default=0.15, help="Confidence threshold"
+        "--threshold_confidence", type=float, default=0.3, help="Confidence threshold"
     )
     parser.add_argument(
-        "--threshold_lift", type=float, default=0.9, help="Lift threshold"
+        "--threshold_lift", type=float, default=1.0, help="Lift threshold"
     )
 
     args = parser.parse_args()
