@@ -31,15 +31,6 @@ def subgraph_frequencies(
 
 
 def load_subgraph_smiles(sub_file: str) -> dict:
-    """
-    Load SMILES notation for each subgraph from .sub file.
-
-    Args:
-        sub_file: Path to .sub file (e.g., train.sub)
-
-    Returns:
-        Dictionary mapping subgraph ID (0-indexed) to SMILES string
-    """
     smiles_map = {}
     df = pd.read_csv(sub_file)
 
@@ -221,8 +212,8 @@ def prune_rules(
                 element,
                 cancer_type,
                 n_subgraphs,
-                moss_matrix,  # Add this parameter
-                C,  # Add this parameter
+                moss_matrix,
+                C,
             )
 
             if mi_c <= mi_c_threshold:
@@ -266,7 +257,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    # Load subgraph SMILES mapping
     print("Loading subgraph SMILES...")
     smiles_map = load_subgraph_smiles(args.sub_file)
 
@@ -284,7 +274,6 @@ if __name__ == "__main__":
         for rule in rule_list:
             print(f"   {rule[0]} -> cancer_type_{rule[1]} with MI {rule[2]:.4f}")
 
-    # Save rules and SMILES mapping together
     output_data = {
         "smiles_map": {str(k): v for k, v in smiles_map.items()},
         "rules": pruned_rules,
