@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from slugify import slugify
 
+random.seed(69420)
 
 def jaccard(s1, s2):
     if not s1 or not s2:
