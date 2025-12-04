@@ -6,6 +6,7 @@ from typing import Dict, List, Optional, Set, Tuple
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import networkx as nx
+from slugify import slugify
 
 
 def jaccard(s1, s2):
@@ -186,16 +187,28 @@ class NetworkAnalyzer:
 class Visualizer:
     @staticmethod
     def compare_degree_distributions(degrees_real, degrees_random, bins=15):
-        plt.figure(figsize=(12, 5))
+        """
+        Plots histograms optimized for LaTeX reports (approx \textwidth).
+        """
+        plt.rcParams.update({"font.size": 12})
+
+        plt.figure(figsize=(10, 5))
+
         plt.subplot(1, 2, 1)
-        plt.hist(degrees_real, bins=bins, color="skyblue", edgecolor="black", alpha=0.7)
-        plt.title("Real Graph In-Degree")
+        plt.hist(degrees_real, bins=bins, color="skyblue", edgecolor="black", alpha=0.9)
+        plt.title("Real Graph In-Degree", fontsize=14, fontweight="bold")
+        plt.xlabel("Weighted In-Degree", fontsize=12)
+        plt.ylabel("Frequency", fontsize=12)
+
         plt.subplot(1, 2, 2)
         plt.hist(
-            degrees_random, bins=bins, color="salmon", edgecolor="black", alpha=0.7
+            degrees_random, bins=bins, color="salmon", edgecolor="black", alpha=0.9
         )
-        plt.title("Random Graph In-Degree")
+        plt.title("Random Graph In-Degree", fontsize=14, fontweight="bold")
+        plt.xlabel("Weighted In-Degree", fontsize=12)
+
         plt.tight_layout()
+        plt.savefig(f"imgs/degree_distribution.pdf", bbox_inches="tight")
         plt.show()
 
     @staticmethod
@@ -206,10 +219,13 @@ class Visualizer:
         communities: Optional[Tuple[Set, Set]] = None,
         title: str = "Eurovision Network",
     ):
-        plt.figure(figsize=(20, 20))
+        plt.rcParams.update({"font.size": 14})
+
+        plt.figure(figsize=(12, 12))
         ax = plt.gca()
         plt.axis("off")
-        plt.title(title, fontsize=24)
+
+        plt.title(title, fontsize=18, pad=20)
 
         trans = ax.transData.transform
         trans2 = plt.gcf().transFigure.inverted().transform
@@ -228,8 +244,9 @@ class Visualizer:
                     width=width,
                     style=style,
                     edge_color="#D3D3D3",
-                    alpha=0.4,
+                    alpha=0.6,
                     arrows=True,
+                    arrowsize=15,
                 )
 
         for node in G.nodes():
@@ -241,7 +258,7 @@ class Visualizer:
             xx, yy = trans((x, y))
             xa, ya = trans2((xx, yy))
 
-            imsize = 0.025
+            imsize = 0.045
 
             country_ax = plt.axes(
                 [xa - imsize / 2.0, ya - imsize / 2.0, imsize, imsize]
@@ -256,15 +273,15 @@ class Visualizer:
                 c1, c2 = communities
                 if node in c1:
                     border_color = "lime"
-                    linewidth = 5
+                    linewidth = 2.5
                     zorder = 10
                 elif node in c2:
                     border_color = "fuchsia"
-                    linewidth = 5
+                    linewidth = 2.5
                     zorder = 10
                 else:
                     border_color = "silver"
-                    linewidth = 2
+                    linewidth = 1
                     zorder = 1
 
                 for spine in country_ax.spines.values():
@@ -275,4 +292,5 @@ class Visualizer:
                 for spine in country_ax.spines.values():
                     spine.set_visible(False)
 
+        plt.savefig(f"imgs/eurovision_map_{slugify(title)}.pdf", bbox_inches="tight")
         plt.show()
