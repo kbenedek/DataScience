@@ -10,6 +10,7 @@ from slugify import slugify
 
 random.seed(69420)
 
+
 def jaccard(s1, s2):
     if not s1 or not s2:
         return 0
@@ -197,16 +198,16 @@ class Visualizer:
 
         plt.subplot(1, 2, 1)
         plt.hist(degrees_real, bins=bins, color="skyblue", edgecolor="black", alpha=0.9)
-        plt.title("Real Graph In-Degree", fontsize=14, fontweight="bold")
-        plt.xlabel("Weighted In-Degree", fontsize=12)
+        plt.title("Real graph in-degree", fontsize=14, fontweight="bold")
+        plt.xlabel("Weighted in-degree", fontsize=12)
         plt.ylabel("Frequency", fontsize=12)
 
         plt.subplot(1, 2, 2)
         plt.hist(
             degrees_random, bins=bins, color="salmon", edgecolor="black", alpha=0.9
         )
-        plt.title("Random Graph In-Degree", fontsize=14, fontweight="bold")
-        plt.xlabel("Weighted In-Degree", fontsize=12)
+        plt.title("Random graph in-degree", fontsize=14, fontweight="bold")
+        plt.xlabel("Weighted in-degree", fontsize=12)
 
         plt.tight_layout()
         plt.savefig(f"imgs/degree_distribution.pdf", bbox_inches="tight")
